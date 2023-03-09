@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário aqui</h1>
+
+    <form>
+
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+        <br><br>
+        <label for="campo_sobrenome">Sobrenome:</label>
+        <input type="text" id="campo_sobrenome" placeholder="Digite seu sobrenome" required>
+        <br><br>
+        <label for="campo_email">Email:</label>
+        <input type="email" id="campo_email" placeholder="Digite seu email" required>
+        <br><br>
+        <label for="campo_senha">Senha:</label>
+        <input type="password" id="campo_senha" placeholder="Digite sua senha" required>
+        <br><br>
+        <h2>Animal de estimação</h2>
+        <input type="radio" id="dog" name="animal" value="Cachorro">
+        <label for="dog">Cachorro</label><br><br>
+        <input type="radio" id="cat" name="animal" value="Gato">
+        <label for="cat">Gato</label>
+        <br><br>
+        <h2>Oque você tem em casa?</h2>
+        <input id="item1" type="checkbox" name="item1" value="TV">TV <br><br>
+        <input id="item2" type="checkbox" name="item2" value="Computador">Computador <br><br>
+        <input id="item3" type="checkbox" name="item3" value="Geladeira">Geladeira <br><br>
+
+        <h2>Escolha uma cor</h2>
+        <select name="cores">
+            <option disabled selected value="">Selecione uma cor </option>
+            <option value="vermelho">Vermelho </option>
+            <option value="azul">Azul </option>
+            <option value="amarelo">Amarelo </option>
+            <option value="verde">Verde </option>
+        </select>
+        <br><br>
+
+        <h2>Digite sua mensagem:</h2>
+
+        <textarea required name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="55">  </textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar Formulário"><br><br>
+
+        <button>Clique aqui</button>
+    </form><br>
+    <hr>
+
+    <a href="index.html">Voltar para a principal</a>
+
+</body>
+
+</html>
